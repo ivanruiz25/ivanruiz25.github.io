@@ -4,7 +4,7 @@ body {
 
 /* Comienzo de header */
 header {
-  background-image: url("/ivanruiz25.github.io/Imagenes/header.jpg"); }
+  background-image: url("../Imagenes/header.jpg"); }
   header img {
     width: 80%;
     height: 120px;
