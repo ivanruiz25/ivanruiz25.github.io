@@ -1,0 +1,46 @@
+body{
+ background-color: #82FA58;
+}
+
+
+
+  header img {
+    width: 80%;
+    height: 200px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%; }
+  header h1 {
+    font-family: "Comfortaa", cursive, Helvetica, verdana;
+    color: #171D1C;
+    font-size: 7em;
+    margin-top: 9%; }
+
+ 
+    
+    main h2{
+
+       color: #171D1C;
+       font-size: 4em;
+       text-align: center;
+    }
+    p{
+
+     font-family: "Comfortaa", cursive, Helvetica, verdana;
+     text-align: center; 
+     color: #171D1C;
+     font-size: 3em;
+    }
+    main img{
+
+      width: 100%;
+    }
+    a{
+      font-family: "Comfortaa", cursive, Helvetica, verdana;
+     text-align: center; 
+     color: #FF0000;
+     font-size: 1.5em;
+     text-decoration: none;
+     text-align: center;
+
+    }
