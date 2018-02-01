@@ -1,0 +1,162 @@
+*{
+
+	margin:0;
+	padding: 0;
+}
+
+body{
+
+	background: #FFFFFF;
+	color: #4E878C;
+
+}
+.container{
+
+	width: 400px;
+	background: #031926;
+	margin:auto;
+	margin-top: 6%;
+	border: 3px solid #FFFFFF;
+	border-radius: 3px;
+}
+h2{
+	font-size: 3em;
+	margin-top: 5%;
+	font-weight: bold;
+	text-align: center;
+
+}
+.mensaje{
+
+	font-size: 2em;
+	margin-top: 5%;
+	font-weight: bold;
+	text-align: center;
+
+}
+p{
+
+	text-align: center;
+	font-size: 1.5em;
+}
+ul{
+
+	list-stile-type: none;
+	margin: 0;
+	margin-left:20%;
+	margin-top: 5%;
+	padding: 0;
+
+}
+li{
+
+	float:left;
+	width: 120px;
+	height: 40px;
+	text-decoration: none;
+	padding-top:5%;
+	display:block;
+	background: #537A5A;
+	color:#FFFFFF;
+	border-radius: 2px;
+	text-align: center;
+	font-size: 1.3em;
+	transition: background 1s ease-in-out;
+}
+li:hover{
+
+		background: #16aa56; 
+
+}
+li a{
+
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top:5%;
+}
+input{
+
+	width: 300px;
+	padding: 20px 0px;
+	margin-top: 30px;
+	margin-left: 12%;
+	text-align: center;
+	background: transparent;
+	border: 0;
+	border-bottom: 1px solid #435160;
+	outline: none;
+	color: #6D7781;
+	font-size: 1em;
+}
+input:invalid{
+
+	width: 300px;
+	padding: 20px 0px;
+	margin-top: 30px;
+	margin-left: 12%;
+	text-align: center;
+	background: transparent;
+	border: 0;
+	border-bottom: 1px solid #6B0F1A;
+	outline: none;
+	color: #6D7781;
+	font-size: 1em;
+
+
+}
+.fecha{
+
+	width: 300px;
+	padding: 20px 0px;
+	margin-left: 12%;
+	text-align: center;
+	background: transparent;
+	border: 0;
+	border-bottom: 1px solid #435160;
+	outline: none;
+	color: #6D7781;
+	font-size: 1em;
+
+}
+label{
+
+	font-size: 1.5em;
+	text-decoration: none;
+	margin-top:10%;
+	padding-left: 10%;
+	text-align: center;
+	color: #6D7781;
+}
+select{
+
+	background:transparent;
+	color: #6D7781;
+	width: 100px;
+	margin-top:10%;
+	margin-bottom: 7%;
+}
+.check{
+	
+	font-size:1em;
+	margin:0;
+	color: #435160;
+}
+.boton{
+
+	background: #537A5A;
+	border:0;
+	margin-top:17%;
+	margin-bottom: 4%;
+	margin-left:12%;
+	text-align: center;
+	border-radius: 4px;
+	color: #FFFFFF;
+	font-size: 1.5em;
+	cursor: pointer;
+	transition: background 0.5s ease-in-out;
+}
+.boton:hover{
+
+	background: #16aa56;
+}

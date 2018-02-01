@@ -20,7 +20,7 @@
 				
 		<div id="imagen" class="grid_5 alpha">
 			
-				<img src="ivanruiz25.github.io/Imagenes/logo.png" alt="logo-de-la-empresa">
+				<img src="img/logo.png" alt="logo-de-la-empresa">
 		</div>
 				
 		<div class="grid_11 omega">
@@ -46,7 +46,7 @@
 
 		<div class="grid_5">
 
-			<img src="ivanruiz25.github.io/Imagenes/carita.png" alt="cara-triste">
+			<img src="img/carita.png" alt="cara-triste">
 		</div>
 		<div class="clear"></div>
 		<div class="grid_11 prefix_4">

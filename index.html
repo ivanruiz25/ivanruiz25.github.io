@@ -13,45 +13,48 @@
 		<link  rel="STYLESHEET" type="text/css" href="css/estilos.css" />
 
 		<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
-		
+		<link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet">
 		
 		
 	</head>
 	<body>
+
+		
+			
 	
 <div class="container_16">
-		
+
+
 	<header class="grid_16">
-				
-		<div id="imagen" class="grid_3 alpha">
 			
-				<img src="ivanruiz25.github.io/Imagenes/logo.png" alt="logo-de-la-empresa">
+		<div id="imagen" class="grid_2 alpha">
+			
+				<img src="img/logo.png" alt="logo-de-la-empresa">
 		</div>
 				
-		<div class="grid_4 suffix_2">
+		<div class="grid_4">
 				
-				<h1>Don<br>Penalti</h1>
-				
+				<h1>Don Penalti</h1>	
 		</div>
-				
-		<div class="grid_7 omega">
-				    
-			<input type="text" placeholder="Buscar: Camisetas,zapatillas..." />
-				
-				<div class="logos">
-					
-					<a href="paginaError.shtml"><img class="logo" src="ivanruiz25.github.io/Imagenes/corazon.gif" alt="lista-de-deseos"/></a>
-					<a href="paginaError.shtml"><img class="usuario" src="ivanruiz25.github.io/Imagenes/usuario.png" alt="login" /></a>
-					<a href="paginaError.shtml"><img class="logo" src="ivanruiz25.github.io/Imagenes/carrito.png" alt="carrito-de-compra"/></a>
-					
-				</div>
-					
+
+		<div class="grid_2 prefix_7" id="registro">
+
+			<p><a href="form.html">Iniciar sesion</a></p>
+			<p><a href="form.html">Registrarse</a>
+
 		</div>
-	
-	   <div class="clear"></div>
+		
+		<div class="grid_2 prefix_7" id="usuario">
+
+			<p><a class="logout" href="#">Logout</a></p>
+
+			<p><img src="img/usuario.png" class="header__icono perfil"/>
+			<img src="img/corazon.gif" class="header__icono favoritos"/>
+			<img src="img/carrito.png" class="header__icono carrito"/></p>
+		</div>
 	</header>
 	
-	
+	  <div class="clear"></div>
 	<nav class="grid_16">
 			
 		
@@ -67,73 +70,124 @@
 	</nav>
 	
     
+	<carrusel class="grid_16 omega">
+
+			<button class="botonAtras" onclick="plusDivs(-1)">&#10094;</button>
+	
+ 			<div class="grid_16 alpha mundial mySlides">
+ 				<h2 class="SliderTitulo">Rusia 2018</h2>
+ 				<h3 class="SliderDes">Equipate para la gloria</h3>
+ 			</div>
+  			<div class="grid_16 alpha outlet mySlides">
+  				<h2 class="SliderTitulo">Outlet</h2>
+  				<h3 class="SliderDes">Temporadas anteriores</h3>
+  			</div>
+  			<div class="grid_16 alpha porteros mySlides">
+  				<h2 class="SliderTitulo">Porteros</h2>
+  				<h3 class="SliderDes">El jugador mas importante</h3>
+  			</div>
+
+  			
+			<button class="botonAlante" onclick="plusDivs(+1)">&#10095;</button>
+
+		<div class="clear"></div>
+	</carrusel>
+
 	<main class="grid_16">
 
-
-	  <section>
+	 
 
 		<div class="grid_16">
-		
 			<h2 class="titulo"> Los + Vendidos</h2>
 		</div>
 	
-	<div class="clear"></div>
+		<div class="clear"></div>
 	
-		<div class="grid_3 articulo">
-	
-				<img class="camiseta" src="ivanruiz25.github.io/Imagenes/españa.jpg" alt="camiseta" />
-				<h3 class="descripcion">2º equipación<br>
-										España<br>
-										Temporada 17/18</h3>
-	
-    			<h3 class="dinero__camiseta">50 €
-				<a href="paginaError.shtml"><img  class="plogo" src="ivanruiz25.github.io/Imagenes/corazongris.gif" alt="lista-de-deseos" /></a>
-				<a href="paginaError.shtml"><img  class="plogo" src="ivanruiz25.github.io/Imagenes/carritogris.png"  alt="carrito-de-compra" /></a></h3>
-	
-	
-		</div>
+		
+	  <section>
 
-		<div class="grid_3 articulo">
-	
-				<img class="camiseta" src="ivanruiz25.github.io/Imagenes/cachorros.jpg" alt="chandal"/>
-				<h3 class="descripcion">Equipacion completa<br>
-										Cachorros de Sanse<br>
-										Temporada 17/18</h3>
-	
-    
-    		
-				<h3 class="dinero__chandal">110 €
-				<a href="paginaError.shtml"><img  class="plogo" src="ivanruiz25.github.io/Imagenes/corazongris.gif" alt="lista-de-deseos" /></a>
-				<a href="paginaError.shtml"><img  class="plogo" src="ivanruiz25.github.io/Imagenes/carritogris.png" alt="carrito-de-compra" /></a></h3>
-				
-			
-	
-	
-		</div>
+	  		
+				<div class="grid_5 articulo oculto">
+						<img class="producto" src="img/españa.jpg" alt="camiseta" />
+							<div class="descripcion">
+								<h4>Camisetas</h4>
+								<h4>España</h4>
+								<h4>Mundial Brasil 2014</h4>
+								<p class="precio">50 € </p>
+								<img src="img/carritogris.png"/>
+								<img class="like" src="img/corazongris.gif" /><p class="meGusta"></p>
+								<img  src="img/comentario.png"/>
+							</div>
+				</div>
+				<div class="grid_5  articulo oculto">
+						<img class="producto" src="img/cachorros.jpg" alt="chandal"/>
+						<div class="descripcion">
+								<h4>Camisetas</h4>
+								<h4>Cachorros de Sanse</h4>
+								<h4>Temporada 17/18</h4>
+								<p class="precio">50 € </p>
+								<img src="img/carritogris.png"/>
+								<img  class="like" src="img/corazongris.gif" /><p class="meGusta"></p>
+								<img  src="img/comentario.png"/>
+							</div>
+				</div>
+				<div class="grid_5 articulo oculto omega">
+						<img class="producto" src="img/bota.jpg" alt="bota" />
+						<div class="descripcion">
+								<h4>Zapatillas</h4>
+								<h4>Nike Mercurial</h4>
+								<h4>Temporada 15/16</h4>
+								<p class="precio">90 € </p>
+								<img src="img/carritogris.png"/>
+								<img  class="like" src="img/corazongris.gif" /><p class="meGusta"></p>
+								<img  src="img/comentario.png"/>
+							</div>
+				</div>
 
-		<div class="grid_3 articulo">
-	
-				<img class="camiseta" src="ivanruiz25.github.io/Imagenes/bota.jpg" alt="bota" />
-				<h3 class="descripcion">Botas<br>
-										Nike Mercurial</h3>
-	
-    
-    			<h3 class="dinero__bota">90 €
-				<a href="paginaError.shtml"><img  class="plogo" src="ivanruiz25.github.io/Imagenes/corazongris.gif" alt="lista-de-deseos" /></a>
-				<a href="paginaError.shtml"><img  class="plogo" src="ivanruiz25.github.io/Imagenes/carritogris.png" alt="carrito-de-compra " /></a></h3>
-	
-	
-		</div>
+
+		<div class="clear"></div>
+
+				<div class="grid_5 articulo oculto">
+						<img class="producto " src="img/botasTiempo.jpg" alt="camiseta" />
+						<div class="descripcion">
+								<h4>Zapatillas</h4>
+								<h4>Nike Tiempo</h4>
+								<h4>Temporada 17/18</h4>
+								<p class="precio">90 € </p>
+								<img src="img/carritogris.png"/>
+								<img class="like" src="img/corazongris.gif" /><p class="meGusta"></p>
+								<img  src="img/comentario.png"/>
+							</div>
+				</div>
+				<div class="grid_5 articulo oculto">
+						<img class="producto " src="img/gremio.jpg" alt="chandal"/>
+						<div class="descripcion">
+								<h4>Camisetas</h4>
+								<h4>Gremio</h4>
+								<h4>Temporada 17/18</h4>
+								<p class="precio">60 € </p>
+								<img src="img/carritogris.png"/>
+								<img class="like" src="img/corazongris.gif" /><p class="meGusta"></p>
+								<img  src="img/comentario.png"/>
+							</div>
+				</div>
+				<div class="grid_5 articulo oculto">
+						<img class="producto " src="img/chandalRM.jpg" alt="bota" />
+						<div class="descripcion">
+								<h4>Entrenamiento</h4>
+								<h4>Chandal Real Madrid</h4>
+								<h4>Temporada 17/18</h4>
+								<p class="precio">100 € </p>
+								<img  src="img/carritogris.png"/>
+								<img  class="like" src="img/corazongris.gif" /><p class="meGusta"></p>
+								<img  src="img/comentario.png"/>
+							</div>
+				</div>
+		
+
+		<div class="clear"></div>
 
 	  </section>
-
-		<aside class="grid_5 prefix_1">
-
-			<img src="ivanruiz25.github.io/Imagenes/envio.png" alt="envio-gratis" />
-			<a href="paginaError.shtml"><img src="ivanruiz25.github.io/Imagenes/outlet.jpg" alt="outlet" /></a>
-			<a href="paginaError.shtml"><img src="ivanruiz25.github.io/Imagenes/rusia.jpg" alt="mundial-de-rusia" /></a>
-
-		</aside>
 
 		<div class="clear"></div>
 	
@@ -171,7 +225,7 @@
 
     <div class="grid_3 omega social">
      
-    	<a   href="paginaError.shtml"><img class="social__imagen" src="ivanruiz25.github.io/Imagenes/social.png" alt="redes-sociales" ></a>
+    	<a   href="paginaError.shtml"><img class="social__imagen" src="img/social.png" alt="redes-sociales" ></a>
 
     </div>
      
@@ -180,7 +234,16 @@
 	</footer>
 	
 </div>
+
+<div class="cookies">
+       		<p> Solicitamos su permiso para obtener datos estadísticos de su navegación en esta web, en cumplimiento del Real 
+       		Decreto-ley 13/2012. Si continúa navegando consideramos que acepta el uso de cookies.<a href="#" class="ok" >OK</a> |
+       		<a href="http://politicadecookies.com">Más información</a> </p>
+   		</div>
 	
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/cliente.js"></script>
+	<script src="js/index.js"></script>
 	
 	</body>
 </html>
