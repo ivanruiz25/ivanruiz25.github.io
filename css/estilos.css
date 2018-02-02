@@ -162,6 +162,13 @@ nav {
 /*Finalizacion de nav */
 /**************************************************/
 /*comienzo del carrusel */
+
+.carrusel{
+
+  width: 100%;
+  height:400px;
+  position: relative;
+}
 .mundial{
   width: 100%;
   height: 400px;
@@ -209,7 +216,8 @@ nav {
   color: #FFFFFF;
   position: absolute;
   top:45%;
-  left: 15.1%;
+  left: 0;
+
 }
 .botonAlante{
 
@@ -219,7 +227,7 @@ nav {
   color: #FFFFFF;
   position: absolute;
   top:45%;
-  right: 15%;
+  right: 0;
 
 }
 /*fin del carrusel */
