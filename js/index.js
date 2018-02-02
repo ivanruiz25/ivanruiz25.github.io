@@ -10,14 +10,14 @@ $(document).ready(function(){
 // y oculta el inicia de sesion y registro
   if(logueado == "") {
 
-    $("#usuario").css("display","none");
-    $("#registro").css("display","block");
+    $("#Inusuario").css("display","none");
+    $("#Inregistro").css("display","block");
 
 // sino mostrara los enlaces e inicio de sesion y registro
   } else{
 
-     $("#registro").css("display","none");
-     $("#usuario").css("display","block");
+     $("#Inregistro").css("display","none");
+     $("#Inusuario").css("display","block");
      $(".cookies").css("display","none");
     
   }
@@ -29,8 +29,8 @@ $(".logout").on("click",function(){
   // deja la cookie de logueado sin usuario
   setCookie("logueado","");
   // borra el contenedor del usuario y muestra el de registro o inicio de sesion
-  $("#usuario").css("display","none");
-  $("#registro").css("display","block");
+  $("#Inusuario").css("display","none");
+  $("#Inregistro").css("display","block");
 
 
 });
