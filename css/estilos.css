@@ -42,7 +42,7 @@ body {
   height: 100px;
   top: 0;
 }
-.cookies p{
+.cookies__parrafo{
 
     margin-top: 1%;
     margin-left: 1%;
@@ -53,36 +53,36 @@ body {
     font-family: "Comfortaa", cursive, Helvetica, verdana;
 
 }
-.cookies p a{
+.cookies__enlace{
 
   margin-left: 2%;
   margin-right: 1%;
   text-decoration: none;
-  font-size: 1.7;
+  font-size: 1em;
 }
 /* fin de la cookies */
 /* Comienzo de header */
-header {
+.cabecera {
  background-color: #171D1C; 
    }
-  header img {
+.cabecera__imagen {
 
     width: 80%;
     height: 50px;
     margin: 20%;
     
  }
-  header h1 {
+.cabecera__titulo{
     font-family: "Comfortaa", cursive, Helvetica, verdana;
     color: #FFFFFF;
     font-size: 2.7em;
     margin-top: 10%; 
  }
- header p{
+.cabecera__parrafo{
 
     margin-top: 15%;
  }
- header a{
+.cabecera__enlace{
   
   font-family: "Comfortaa", cursive, Helvetica, verdana;
   text-decoration: none;
@@ -91,13 +91,13 @@ header {
   font-size: 0.9em;
 
  }
- header a:hover{
+.cabecera__enlace:hover{
 
   font-weight: bold;
   font-size: 1em;
   transition: 0.5s ease;
 }
-.header__icono{
+.cabecera__icono{
 
   width: 20px;
   height: 20px;
@@ -108,7 +108,7 @@ header {
   float:left;
 
 }
-.header__icono:hover{
+.cabecera__icono:hover{
 
   width: 21px;
   height: 21px;
@@ -118,19 +118,18 @@ header {
 /*Finalizacion de header */
 /*************************************************/
 /*Comienzo de nav */
-nav {
+.menu {
   background-color: #0B4C5F; }
-  nav ul {
+.menu__ul {
     background-color: #0B4C5F;
     width: 100%;
     list-style-type: none; }
-  nav li {
+.menu__li{
     width: 15%;
     background-color: #0B4C5F;
     float: left; 
-  }
- 
-  nav a {
+  } 
+.menu__enlace{
 
     font-size: 1.7em;
     margin: 4%;
@@ -139,9 +138,8 @@ nav {
     display: inline-block;
     text-decoration: none;
     font-family: "Comfortaa", cursive, Helvetica, verdana; }
-
 /*animacion para los enlaces del menu */
- nav a:before{
+.menu__enlace:before{
 
     content: "";
     position: absolute;
@@ -155,7 +153,7 @@ nav {
     border-radius: 2px;
 
   }
- nav a:hover:before{
+.menu__enlace:hover:before{
     width: 100%;
   }
  
@@ -232,7 +230,7 @@ nav {
 }
 /*fin del carrusel */
 /*Comienzo del main */
-main {
+.cuerpo {
   background-color: #FFFFFF; }
 
 .titulo{
@@ -273,7 +271,7 @@ main {
   color: #000000;
   font-family: "Comfortaa", cursive, Helvetica, verdana; }
 
-.descripcion h4{
+.descripcion__titulo{
 
   text-align: center;
   margin-top:1%;
@@ -290,14 +288,14 @@ main {
    font-family: "Comfortaa", cursive, Helvetica, verdana;
 
 }
-.descripcion img{
+.descripcion__img{
 
   float: right;
   margin-right: 7%;
   width: 30px;
   height: 30px;
 }
-.descripcion img:hover{
+.descripcion__img:hover{
 
   width: 32px;
   height: 32px;
@@ -312,7 +310,7 @@ main {
 /* finalizacion de section */
 /*******************************************/
 /* comienzo del footer */
-footer {
+.pie {
   background-color: #171D1C;
    }
 

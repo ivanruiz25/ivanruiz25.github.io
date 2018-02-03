@@ -25,46 +25,48 @@
 <div class="container_16">
 
 
-	<header class="grid_16">
+	<header class="grid_16 cabecera">
 			
 		<div id="imagen" class="grid_2 alpha">
 			
-				<img src="img/logo.png" alt="logo-de-la-empresa">
+				<img class="cabecera__imagen" src="img/logo.png" alt="logo-de-la-empresa">
 		</div>
 				
 		<div class="grid_4">
 				
-				<h1>Don Penalti</h1>	
+				<h1 class="cabecera__titulo">Don Penalti</h1>	
 		</div>
 
 		<div class="grid_2 prefix_7" id="Inregistro">
 
-			<p><a href="form.html">Iniciar sesion</a></p>
-			<p><a href="form.html">Registrarse</a>
+			<p class="cabecera__parrafo"><a class="cabecera__enlace" href="form.html">Iniciar sesion</a></p>
+			<p class="cabecera__parrafo"><a class="cabecera__enlace" href="form.html">Registrarse</a>
 
 		</div>
 		
 		<div class="grid_2 prefix_7" id="Inusuario">
 
-			<p><a class="logout" href="#">Logout</a></p>
+			<p class="cabecera__parrafo"><a class="cabecera__enlace logout" href="#">Logout</a></p>
 
-			<p><img src="img/usuario.png" alt="foto" class="header__icono perfil"/>
-			<img src="img/corazon.gif" alt="foto" class="header__icono favoritos"/>
-			<img src="img/carrito.png" alt="foto" class="header__icono carrito"/></p>
+			<p class="cabecera__parrafo">
+			<img src="img/usuario.png" alt="foto" class="cabecera__icono perfil"/>
+			<img src="img/corazon.gif" alt="foto" class="cabecera__icono favoritos"/>
+			<img src="img/carrito.png" alt="foto" class="cabecera__icono carrito"/></p>
 		</div>
 
 	</header>
 	
 	  <div class="clear"></div>
-	<nav class="grid_16">
+
+	<nav class="grid_16 menu">
 			
 		
-				<ul>
-					<li><a href="paginaError.shtml">Camisetas</a></li>
-					<li><a href="paginaError.shtml">Chandal</a></li>
-					<li><a href="paginaError.shtml">Pantalones</a></li>
-					<li><a href="paginaError.shtml">Zapatillas</a></li>
-					<li><a href="paginaError.shtml">Entrenamiento</a></li>
+				<ul class="menu__ul">
+					<li class="menu__li"><a class="menu__enlace" href="paginaError.shtml">Camisetas</a></li>
+					<li class="menu__li"><a class="menu__enlace" href="paginaError.shtml">Chandal</a></li>
+					<li class="menu__li"><a class="menu__enlace" href="paginaError.shtml">Pantalones</a></li>
+					<li class="menu__li"><a class="menu__enlace" href="paginaError.shtml">Zapatillas</a></li>
+					<li class="menu__li"><a class="menu__enlace" href="paginaError.shtml">Entrenamiento</a></li>
 				</ul>
 				
 	<div class="clear" ></div>
@@ -95,7 +97,7 @@
 	</aside>
 	<div class="clear"></div>
 
-	<main class="grid_16">
+	<main class="grid_16 cuerpo">
 
 	 
 
@@ -112,37 +114,37 @@
 				<div class="grid_5 articulo oculto">
 						<img class="producto"  src="img/españa.jpg" alt="camiseta" />
 							<div class="descripcion">
-								<h4>Camisetas</h4>
-								<h4>España</h4>
-								<h4>Mundial Brasil 2014</h4>
+								<h4 class="descripcion__titulo">Camisetas</h4>
+								<h4 class="descripcion__titulo">España</h4>
+								<h4 class="descripcion__titulo">Mundial Brasil 2014</h4>
 								<p class="precio">50 € </p>
-								<img alt="foto" src="img/carritogris.png"/>
-								<img class="like" alt="foto" src="img/corazongris.gif" /><p class="meGusta"></p>
-								<img  alt="foto" src="img/comentario.png"/>
+								<img class="descripcion__img" alt="foto" src="img/carritogris.png"/>
+								<img class="descripcion__img like" alt="foto" src="img/corazongris.gif" /><p class="meGusta"></p>
+								<img class="descripcion__img" alt="foto" src="img/comentario.png"/>
 							</div>
 				</div>
 				<div class="grid_5  articulo oculto">
 						<img class="producto"  src="img/cachorros.jpg" alt="chandal"/>
 						<div class="descripcion">
-								<h4>Camisetas</h4>
-								<h4>Cachorros de Sanse</h4>
-								<h4>Temporada 17/18</h4>
+								<h4 class="descripcion__titulo">Camisetas</h4>
+								<h4 class="descripcion__titulo">Cachorros de Sanse</h4>
+								<h4 class="descripcion__titulo">Temporada 17/18</h4>
 								<p class="precio">50 € </p>
-								<img alt="foto" src="img/carritogris.png"/>
-								<img alt="foto" class="like" src="img/corazongris.gif" /><p class="meGusta"></p>
-								<img alt="foto" src="img/comentario.png"/>
+								<img class="descripcion__img" alt="foto" src="img/carritogris.png"/>
+								<img alt="foto" class="descripcion__img like" src="img/corazongris.gif" /><p class="meGusta"></p>
+								<img alt="foto" class="descripcion__img" src="img/comentario.png"/>
 							</div>
 				</div>
 				<div class="grid_5 articulo oculto omega">
 						<img class="producto"  src="img/bota.jpg" alt="bota" />
 						<div class="descripcion">
-								<h4>Zapatillas</h4>
-								<h4>Nike Mercurial</h4>
-								<h4>Temporada 15/16</h4>
+								<h4 class="descripcion__titulo" >Zapatillas</h4>
+								<h4 class="descripcion__titulo">Nike Mercurial</h4>
+								<h4 class="descripcion__titulo">Temporada 15/16</h4>
 								<p class="precio">90 € </p>
-								<img alt="foto" src="img/carritogris.png"/>
-								<img  alt="foto" class="like" src="img/corazongris.gif" /><p class="meGusta"></p>
-								<img  alt="foto" src="img/comentario.png"/>
+								<img alt="foto" class="descripcion__img" src="img/carritogris.png"/>
+								<img  alt="foto" class="descripcion__img like" src="img/corazongris.gif" /><p class="meGusta"></p>
+								<img  alt="foto" class="descripcion__img" src="img/comentario.png"/>
 							</div>
 				</div>
 
@@ -150,39 +152,39 @@
 		<div class="clear"></div>
 
 				<div class="grid_5 articulo oculto">
-						<img class="producto "  src="img/botasTiempo.jpg" alt="camiseta" />
+						<img class="producto"  src="img/botasTiempo.jpg" alt="camiseta" />
 						<div class="descripcion">
-								<h4>Zapatillas</h4>
-								<h4>Nike Tiempo</h4>
-								<h4>Temporada 17/18</h4>
+								<h4 class="descripcion__titulo">Zapatillas</h4>
+								<h4 class="descripcion__titulo">Nike Tiempo</h4>
+								<h4 class="descripcion__titulo">Temporada 17/18</h4>
 								<p class="precio">90 € </p>
-								<img alt="foto" src="img/carritogris.png"/>
-								<img alt="foto" class="like" src="img/corazongris.gif" /><p class="meGusta"></p>
-								<img alt="foto"  src="img/comentario.png"/>
+								<img alt="foto" class="descripcion__img" src="img/carritogris.png"/>
+								<img alt="foto" class="descripcion__img like" src="img/corazongris.gif" /><p class="meGusta"></p>
+								<img alt="foto" class="descripcion__img" src="img/comentario.png"/>
 							</div>
 				</div>
 				<div class="grid_5 articulo oculto">
 						<img class="producto"  src="img/gremio.jpg" alt="chandal"/>
 						<div class="descripcion">
-								<h4>Camisetas</h4>
-								<h4>Gremio</h4>
-								<h4>Temporada 17/18</h4>
+								<h4 class="descripcion__titulo">Camisetas</h4>
+								<h4 class="descripcion__titulo">Gremio</h4>
+								<h4 class="descripcion__titulo">Temporada 17/18</h4>
 								<p class="precio">60 € </p>
-								<img alt="foto" src="img/carritogris.png"/>
-								<img alt="foto" class="like" src="img/corazongris.gif" /><p class="meGusta"></p>
-								<img  alt="foto" src="img/comentario.png"/>
+								<img alt="foto" class="descripcion__img" src="img/carritogris.png"/>
+								<img alt="foto" class="descripcion__img like" src="img/corazongris.gif" /><p class="meGusta"></p>
+								<img  alt="foto" class="descripcion__img" src="img/comentario.png"/>
 							</div>
 				</div>
 				<div class="grid_5 articulo oculto">
 						<img class="producto "  src="img/chandalRM.jpg" alt="bota" />
 						<div class="descripcion">
-								<h4>Entrenamiento</h4>
-								<h4>Chandal Real Madrid</h4>
-								<h4>Temporada 17/18</h4>
+								<h4 class="descripcion__titulo">Entrenamiento</h4>
+								<h4 class="descripcion__titulo">Chandal Real Madrid</h4>
+								<h4 class="descripcion__titulo">Temporada 17/18</h4>
 								<p class="precio">100 € </p>
-								<img alt="foto"  src="img/carritogris.png"/>
-								<img  alt="foto" class="like" src="img/corazongris.gif" /><p class="meGusta"></p>
-								<img  alt="foto" src="img/comentario.png"/>
+								<img  alt="foto" class="descripcion__img" src="img/carritogris.png"/>
+								<img  alt="foto" class="descripcion__img like" src="img/corazongris.gif" /><p class="meGusta"></p>
+								<img  alt="foto" class="descripcion__img" src="img/comentario.png"/>
 							</div>
 				</div>
 		
@@ -195,7 +197,7 @@
 	
 	</main>
 
-	<footer class="grid_16">
+	<footer class="grid_16 pie">
 
    	<div class="grid_3 alpha ayuda">
     
@@ -238,9 +240,9 @@
 </div>
 
 <div class="cookies">
-       		<p> Solicitamos su permiso para obtener datos estadísticos de su navegación en esta web, en cumplimiento del Real 
-       		Decreto-ley 13/2012. Si continúa navegando consideramos que acepta el uso de cookies.<a href="#" class="ok" >OK</a> |
-       		<a href="http://politicadecookies.com">Más información</a> </p>
+       		<p class="cookies__parrafo"> Solicitamos su permiso para obtener datos estadísticos de su navegación en esta web, en cumplimiento del Real 
+       		Decreto-ley 13/2012. Si continúa navegando consideramos que acepta el uso de cookies.<a href="#" class="cookies__enlace ok" >OK</a> |
+       		<a class="cookies__enlace" href="http://politicadecookies.com">Más información</a> </p>
    		</div>
 	
 	<script src="js/jquery-3.2.1.js"></script>
