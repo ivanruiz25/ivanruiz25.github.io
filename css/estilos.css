@@ -137,7 +137,8 @@ body {
     position: relative;
     display: inline-block;
     text-decoration: none;
-    font-family: "Comfortaa", cursive, Helvetica, verdana; }
+    font-family: "Comfortaa", cursive, Helvetica, verdana; 
+  }
 /*animacion para los enlaces del menu */
 .menu__enlace:before{
 
@@ -259,7 +260,7 @@ body {
 .descripcion {
 
   position:absolute;
-  bottom: 0;
+  bottom: 3%;
   left: 8%;
   right: 0;
   background-color: #FFFFFF;
@@ -281,7 +282,7 @@ body {
 }
 .precio{
 
-    font-size: 1.8em;
+    font-size: 2.3em;
     text-align: center;
     font-weight: bold;
     color: #C93F2E;
@@ -290,21 +291,69 @@ body {
 }
 .descripcion__img{
 
-  float: right;
-  margin-right: 7%;
-  width: 30px;
-  height: 30px;
+  float: left;
+  margin-left: 10%;
+  margin-bottom: 4%;
+  width: 20px;
+  height: 20px;
 }
 .descripcion__img:hover{
 
-  width: 32px;
-  height: 32px;
+  width: 25px;
+  height: 25px;
   transition: 0.5s ease;
 }
 .articulo:hover .descripcion{
 
-  height: 100%;
+  height: 97%;
 
+}
+.comentarios{
+
+  border-left: 2px solid #ECE3E2;
+  border-right: 2px solid #ECE3E2;
+  border-bottom: 2px solid #ECE3E2;
+  width: 100%;
+  margin-left:8%;
+
+}
+.comentarios__caja{
+
+  width: 80%;
+  margin-left: 15%;
+  height: 50px;
+  border-radius: 3px;
+  background: #ECE3E2;
+}
+.comentarios__boton{
+
+  margin-left: 76%;
+  margin-top:1%;
+  margin-bottom: 3%;
+  border-radius: 2px;
+  background: #000000;
+  color: #FFFFFF;
+}
+.comen{
+
+  width:70%;
+  margin-left:15%;
+  margin-bottom: 2%;
+
+}
+.comen__titulo{
+
+  font-size: 1.2em;
+  font-family: "Comfortaa", cursive, Helvetica, verdana;
+  font-weight: bold;
+  color: #32C2F7;
+}
+.comen__parrafo {
+
+  font-size: 1em;
+  font-family: "Comfortaa", cursive, Helvetica, verdana;
+  margin-bottom: 6%;
+  text-align: justify;
 }
 
 /* finalizacion de section */

@@ -5,6 +5,7 @@
 	<head>
 
 		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	    
 		<title>Don Penalti</title>
 		<link  rel="STYLESHEET" type="text/css" href="css/reset.css" />
@@ -29,7 +30,7 @@
 			
 		<div id="imagen" class="grid_2 alpha">
 			
-				<img class="cabecera__imagen" src="img/logo.png" alt="logo-de-la-empresa">
+				<img class=".img-fluid cabecera__imagen" src="img/logo.png" alt="logo-de-la-empresa">
 		</div>
 				
 		<div class="grid_4">
@@ -111,82 +112,156 @@
 	  <section>
 
 	  		
-				<div class="grid_5 articulo oculto">
-						<img class="producto"  src="img/españa.jpg" alt="camiseta" />
+				<div class="grid_5 ">
+
+						<div class="articulo oculto">
+							<img class="producto"  src="img/españa.jpg" alt="camiseta" />
 							<div class="descripcion">
-								<h4 class="descripcion__titulo">Camisetas</h4>
-								<h4 class="descripcion__titulo">España</h4>
-								<h4 class="descripcion__titulo">Mundial Brasil 2014</h4>
-								<p class="precio">50 € </p>
-								<img class="descripcion__img" alt="foto" src="img/carritogris.png"/>
-								<img class="descripcion__img like" alt="foto" src="img/corazongris.gif" /><p class="meGusta"></p>
-								<img class="descripcion__img" alt="foto" src="img/comentario.png"/>
+									<h4 class="descripcion__titulo">Camisetas</h4>
+									<h4 class="descripcion__titulo">España</h4>
+									<h4 class="descripcion__titulo">Mundial Brasil 2014</h4>
+									<p class="precio">50 € </p>
 							</div>
+							<img alt="foto" class="descripcion__img" src="img/carritogris.png"/>
+							<img alt="foto" class="descripcion__img like" src="img/corazongris.gif" />
+							<img alt="foto" class="descripcion__img imagen__comentario" src="img/comentario.png"/>
+						</div>
+			
+
+						<div class="comentarios">
+							<form action="index.html" name="procesaComentario">
+							<input type="text" name="comen" class="comentarios__caja" placeholder="Escriba un comentario" /><br>
+							<button class="comentarios__boton">Enviar</button> 
+							</form>
+						</div>	
 				</div>
-				<div class="grid_5  articulo oculto">
-						<img class="producto"  src="img/cachorros.jpg" alt="chandal"/>
-						<div class="descripcion">
-								<h4 class="descripcion__titulo">Camisetas</h4>
-								<h4 class="descripcion__titulo">Cachorros de Sanse</h4>
-								<h4 class="descripcion__titulo">Temporada 17/18</h4>
-								<p class="precio">50 € </p>
-								<img class="descripcion__img" alt="foto" src="img/carritogris.png"/>
-								<img alt="foto" class="descripcion__img like" src="img/corazongris.gif" /><p class="meGusta"></p>
-								<img alt="foto" class="descripcion__img" src="img/comentario.png"/>
+				
+
+				<div class="grid_5">
+
+						<div class="articulo oculto">
+							<img class="producto"  src="img/cachorros.jpg" alt="chandal"/>
+							<div class="descripcion">
+									<h4 class="descripcion__titulo">Camisetas</h4>
+									<h4 class="descripcion__titulo">Cachorros de Sanse</h4>
+									<h4 class="descripcion__titulo">Temporada 17/18</h4>
+									<p class="precio">50 € </p>
 							</div>
+							<img alt="foto" class="descripcion__img" src="img/carritogris.png"/>
+							<img alt="foto" class="descripcion__img like" src="img/corazongris.gif" />
+							<img alt="foto" class="descripcion__img imagen__comentario" src="img/comentario.png"/>
+						</div>
+				
+
+						<div class="comentarios">
+							<form action="index.html" name="procesaComentario">
+							<input type="text" name="comen" class="comentarios__caja" placeholder="Escriba un comentario" /><br>
+							<button class="comentarios__boton">Enviar</button> 
+							</form>
+						</div>	
 				</div>
-				<div class="grid_5 articulo oculto omega">
-						<img class="producto"  src="img/bota.jpg" alt="bota" />
-						<div class="descripcion">
+					
+				<div class="grid_5 omega">
+
+						<div class="articulo oculto">
+							<img class="producto"  src="img/bota.jpg" alt="bota" />
+							<div class="descripcion">
 								<h4 class="descripcion__titulo" >Zapatillas</h4>
 								<h4 class="descripcion__titulo">Nike Mercurial</h4>
 								<h4 class="descripcion__titulo">Temporada 15/16</h4>
 								<p class="precio">90 € </p>
-								<img alt="foto" class="descripcion__img" src="img/carritogris.png"/>
-								<img  alt="foto" class="descripcion__img like" src="img/corazongris.gif" /><p class="meGusta"></p>
-								<img  alt="foto" class="descripcion__img" src="img/comentario.png"/>
 							</div>
+							<img alt="foto" class="descripcion__img" src="img/carritogris.png"/>
+							<img alt="foto" class="descripcion__img like" src="img/corazongris.gif" />
+							<img alt="foto" class="descripcion__img imagen__comentario" src="img/comentario.png"/>
+						</div>
+					
+
+						<div  id ="comentarios" class="comentarios">
+							<form action="index.html" name="procesaComentario">
+							<input type="text" name="comen" class="comentarios__caja" placeholder="Escriba un comentario" /><br>
+							<button class="comentarios__boton">Enviar</button> 
+							</form>
+						</div>	
 				</div>
+				
 
 
 		<div class="clear"></div>
 
-				<div class="grid_5 articulo oculto">
-						<img class="producto"  src="img/botasTiempo.jpg" alt="camiseta" />
-						<div class="descripcion">
+				<div class="grid_5">
+
+						<div class="articulo oculto">
+							<img class="producto"  src="img/botasTiempo.jpg" alt="camiseta" />
+							<div class="descripcion">
 								<h4 class="descripcion__titulo">Zapatillas</h4>
 								<h4 class="descripcion__titulo">Nike Tiempo</h4>
 								<h4 class="descripcion__titulo">Temporada 17/18</h4>
 								<p class="precio">90 € </p>
-								<img alt="foto" class="descripcion__img" src="img/carritogris.png"/>
-								<img alt="foto" class="descripcion__img like" src="img/corazongris.gif" /><p class="meGusta"></p>
-								<img alt="foto" class="descripcion__img" src="img/comentario.png"/>
 							</div>
+							<img alt="foto" class="descripcion__img" src="img/carritogris.png"/>
+							<img alt="foto" class="descripcion__img like" src="img/corazongris.gif" />
+							<img alt="foto" class="descripcion__img imagen__comentario" src="img/comentario.png"/>
+						</div>
+			
+
+						<div class="comentarios">
+							<form action="index.html" name="procesaComentario">
+							<input type="text" name="comen" class="comentarios__caja" placeholder="Escriba un comentario" /><br>
+							<button class="comentarios__boton">Enviar</button> 
+							</form>
+						</div>	
 				</div>
-				<div class="grid_5 articulo oculto">
-						<img class="producto"  src="img/gremio.jpg" alt="chandal"/>
-						<div class="descripcion">
+					
+
+				<div class="grid_5">
+
+						<div class="articulo oculto">
+							<img class="producto"  src="img/gremio.jpg" alt="chandal"/>
+							<div class="descripcion">
 								<h4 class="descripcion__titulo">Camisetas</h4>
 								<h4 class="descripcion__titulo">Gremio</h4>
 								<h4 class="descripcion__titulo">Temporada 17/18</h4>
 								<p class="precio">60 € </p>
-								<img alt="foto" class="descripcion__img" src="img/carritogris.png"/>
-								<img alt="foto" class="descripcion__img like" src="img/corazongris.gif" /><p class="meGusta"></p>
-								<img  alt="foto" class="descripcion__img" src="img/comentario.png"/>
 							</div>
+							<img alt="foto" class="descripcion__img" src="img/carritogris.png"/>
+							<img alt="foto" class="descripcion__img like" src="img/corazongris.gif" />
+							<img alt="foto" class="descripcion__img imagen__comentario" src="img/comentario.png"/>
+						</div>
+					
+
+							<div class="comentarios">
+							<form action="index.html" name="procesaComentario">
+							<input type="text" name="comen" class="comentarios__caja" placeholder="Escriba un comentario" /><br>
+							<button class="comentarios__boton">Enviar</button> 
+							</form>
+						</div>	
 				</div>
-				<div class="grid_5 articulo oculto">
-						<img class="producto "  src="img/chandalRM.jpg" alt="bota" />
-						<div class="descripcion">
+					
+
+				<div class="grid_5">
+
+						<div class="articulo oculto">
+							<img class="producto "  src="img/chandalRM.jpg" alt="bota" />
+							<div class="descripcion">
 								<h4 class="descripcion__titulo">Entrenamiento</h4>
 								<h4 class="descripcion__titulo">Chandal Real Madrid</h4>
 								<h4 class="descripcion__titulo">Temporada 17/18</h4>
 								<p class="precio">100 € </p>
-								<img  alt="foto" class="descripcion__img" src="img/carritogris.png"/>
-								<img  alt="foto" class="descripcion__img like" src="img/corazongris.gif" /><p class="meGusta"></p>
-								<img  alt="foto" class="descripcion__img" src="img/comentario.png"/>
 							</div>
+							<img  alt="foto" class="descripcion__img" src="img/carritogris.png"/>
+							<img  alt="foto" class="descripcion__img like" src="img/corazongris.gif" />
+							<img  alt="foto" class="descripcion__img imagen__comentario" src="img/comentario.png"/>
+						</div>
+
+						<div class="comentarios">
+							<form action="index.html" name="procesaComentario">
+							<input type="text" name="comen" class="comentarios__caja" placeholder="Escriba un comentario" /><br>
+							<button class="comentarios__boton">Enviar</button> 
+							</form>
+						</div>		
 				</div>
+					
 		
 
 		<div class="clear"></div>
@@ -245,9 +320,12 @@
        		<a class="cookies__enlace" href="http://politicadecookies.com">Más información</a> </p>
    		</div>
 	
+
 	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/dom.js"></script>
 	<script src="js/cliente.js"></script>
 	<script src="js/index.js"></script>
+	
 	
 	</body>
 </html>
