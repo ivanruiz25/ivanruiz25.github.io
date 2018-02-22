@@ -4,7 +4,7 @@
 $(document).ready(function(){
 
 	$(".formRegistro").css("display","none");
-	$("#login").css("background","#9AE19D");
+	$("#login").css("background","#5076EC");
 	$(".tarjeta").css("display","none");
 
 // generador de desplegable de paises
@@ -49,16 +49,16 @@ $("#registro").on("click",function(){
 
 	$(".formLogin").css("display","none");
 	$(".formRegistro").css("display","block");
-	$("#registro").css("background","#9AE19D");
-	$("#login").css("background","#537A5A");
+	$("#registro").css("background","#5076EC");
+	$("#login").css("background","#002EBD");
 });
 // si pulsa el boton del login
 $("#login").on("click",function(){
 
 	$(".formRegistro").css("display","none");
 	$(".formLogin").css("display","block");
-	$("#login").css("background","#9AE19D");
-	$("#registro").css("background","#537A5A");
+	$("#login").css("background","#5076EC");
+	$("#registro").css("background","#002EBD");
 
 });
 // variable que contiene los datos de la cookie
@@ -152,6 +152,7 @@ $(".formRegistro").submit(function(event) {
     setCookie("nombre",form["nombre"].value);
     // crea la cookie con la contrasenia 
     setCookie("clave",form["clave"].value);
+    alert("El usuario ha sido registrado con exito");
 
   } else {
 

@@ -1,0 +1,104 @@
+{
+  "productos": [
+  {   
+    "id": 1,
+    "nombre": "camiseta real madrid C.F"
+  },
+  {
+    "id": 2,
+    "nombre": "camiseta sevilla F.C"
+  },
+  { 
+    "id": 3,
+    "nombre": "camiseta real betis balompie"
+  },
+  { 
+    "id": 4,
+    "nombre": "camiseta real murcia"
+  },
+ { 
+    "id": 5,
+    "nombre": "camiseta real sociedad"
+  },
+  { 
+    "id": 6,
+    "nombre": "zapatillas nike"
+  },
+{ 
+    "id": 7,
+    "nombre": "zapatillas adidas"
+  },
+  { 
+    "id": 8,
+    "nombre": "zapatillas puma"
+  },
+  { 
+    "id": 9,
+    "nombre": "zapatillas new balance"
+  },
+  { 
+    "id": 10,
+    "nombre": "zapatillas under armor"
+  },
+  { 
+    "id": 11,
+    "nombre": "entrenamiento real madrid C.F"
+  },
+  { 
+    "id": 12,
+    "nombre": "entrenamiento juventus de turin"
+  },
+  { 
+    "id": 13,
+    "nombre": "entrenamiento manchester united"
+  },
+  { 
+    "id": 14,
+    "nombre": "entrenamiento roma"
+  },
+  { 
+    "id": 15,
+   "nombre": "entrenamiento atletico de madrid"
+  },
+  { 
+    "id": 16,
+   "nombre": "chandal sevilla F.C"
+  },
+  { 
+      "id": 17,
+   "nombre": "chandal real madrid C.F"
+  },
+  { 
+      "id": 18,
+   "nombre": "chandal inter de milan"
+  },
+   { 
+      "id": 19,
+   "nombre": "chandal ac milan"
+  },
+    { 
+      "id": 20,
+   "nombre": "chandal getafe F.C"
+  },
+    { 
+      "id": 21,
+   "nombre": "pantalones real madrid C.F"
+  },
+     { 
+      "id": 22,
+   "nombre": "pantalones juventus de turin"
+  },
+    { 
+      "id": 23,
+   "nombre": "pantalones PSG"
+  },
+    { 
+      "id": 24,
+   "nombre": "pantalones river plate"
+  },
+  { 
+      "id": 25,
+   "nombre": "pantalones valencia C.F"
+  }
+]
+}
