@@ -23,6 +23,45 @@ $(document).ready(function(){
   }
 
 });
+//funcion que auto completa el buscador 
+async function buscador(){
+  // donde estaran los resultados de la busquedas
+  var caja=document.getElementById("resultadoBusqueda");
+  // vaciamos dicho div para que no se acumulen los resultados
+  //agregamos un color blanco de fondo 
+  caja.innerHTML="";
+  caja.style.background="#FFFFFF";
+  //variable del json, limite de productos que apareceran y datos recogidos en el input
+  var urlProductos="http://localhost:3000/productos?q=";
+  var paginacion="&_limit=6";
+  var nombreProducto=document.getElementById("buscar").value;
+// si el campo de busqueda no esta vacio iniciaremos la busqueda
+ if(nombreProducto !== "") {
+  // creamos la url completa para buscar en el json
+  //la creo en 2 variables porque sino me pone un espacion entre el producto y la paginacion  
+  var url=urlProductos.concat(nombreProducto);
+  var urlFinal=url.concat(paginacion);
+
+  getJSON(urlFinal).then(function(data) { 
+    // recorremos el resultado 
+    for(let i in data)   { 
+        // creamos una etiqueta parrafo 
+        var parrafo = document.createElement("p");
+            //introducimos los datos
+            parrafo.innerHTML= data[i].nombre; 
+            // le agregamos una clase
+            parrafo.setAttribute("class","resultado__parrafo");
+            // introducimos el parrafo en el div que contendra los resultados
+            caja.appendChild(parrafo);  }
+
+}, function(status) {
+  alert('Este compononte solo funciona en local');
+});
+// quitamos el color de fondo al div
+} else{
+  caja.style.background="";
+} }
+//fin del buscador
 //funcion que al pulsar el boton de logout elimina la cookie de sesion del usuario
 //cliente
 $(".logout").on("click",function(){

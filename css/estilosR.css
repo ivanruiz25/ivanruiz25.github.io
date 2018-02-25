@@ -25,6 +25,20 @@
   opacity: 1;
 
 }
+.formulario{
+  position: relative;
+}
+.resultado{
+  width: 200px;
+  position:absolute;
+  top:80%;
+  z-index: 1;
+}
+.resultado__parrafo{
+
+  font-size: 0.8em;
+
+}
 
 /* fin de las animaciones */
 
@@ -45,11 +59,15 @@
     font-family: "Comfortaa", cursive, Helvetica, verdana;
 
 }
-@media screen and (max-width: 470px){
+@media screen and (max-width: 570px){
 
   .cookies__parrafo{
 
     font-size: 0.8em;
+}
+.resultado{
+
+  top: 40%;
 }
 
 
