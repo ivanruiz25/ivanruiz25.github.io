@@ -32,17 +32,15 @@ async function buscador(){
   caja.innerHTML="";
   caja.style.background="#FFFFFF";
   //variable del json, limite de productos que apareceran y datos recogidos en el input
-  var urlProductos="http://localhost:3000/productos?q=";
-  var paginacion="&_limit=6";
+  var urlProductos="https://my-json-server.typicode.com/ivanruiz25/ivanruiz25.github.io/productos?q=";
   var nombreProducto=document.getElementById("buscar").value;
 // si el campo de busqueda no esta vacio iniciaremos la busqueda
  if(nombreProducto !== "") {
   // creamos la url completa para buscar en el json
   //la creo en 2 variables porque sino me pone un espacion entre el producto y la paginacion  
   var url=urlProductos.concat(nombreProducto);
-  var urlFinal=url.concat(paginacion);
 
-  getJSON(urlFinal).then(function(data) { 
+  getJSON(url).then(function(data) { 
     // recorremos el resultado 
     for(let i in data)   { 
         // creamos una etiqueta parrafo 
