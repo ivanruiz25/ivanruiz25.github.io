@@ -13,7 +13,9 @@ Instalación del servidor:
 
 Para utilizar dicho servidor, desde la carpeta donde se encuentra el archivo json accionamos el siguiente comando:
 
-*$ json-server - -watch nombredelarchivo.json*
+*$ json-server - -watch *db.json*
+
+El json propio utilizado para esta practica se encuentra en la carpeta *json* con el nombre **db.json**.
 
 En esta práctica he usado AJAX para la obtención de todos los países de un fichero json y para el autocompletado del buscador recogiendo la información de json propio donde se encuentran los nombres de los productos de la tienda.
 
@@ -24,4 +26,3 @@ Camiseta Real Madrid, entrenamiento Sevilla, zapatillas Nike etc.
 La obtención de los países se encuentra en el fichero *cliente.js* y abarca desde la **línea 12** hasta la **línea 29**.
 
 El autocompletado del buscador se encuentra en fichero *index.js* y abarca desde la línea desde la **línea 27** hasta la **línea 59**. Todo se encuentra en una función llamada **buscador()**. Dicha función se activa al escribir en input del buscador mediante un evento: *onkeyup="buscador()"*. Esta implementacion de AJAX solo funciona en local porque el servidor solo se puede ejecutar en local.
-
